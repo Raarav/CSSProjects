@@ -1,0 +1,127 @@
+color is build by three colors :-
+R:- Red
+G:- Green
+B:- Blue
+function :- rgb(red, green, blue)
+and
+function :- rgba(red, green, blue, obacity)
+and 
+haxcode :- #FF0000 <-- red || rgb(255, 0, 0) || rgba(255, 0, 0, 0) 
+haxcode :- #00FF00 <-- green || rgb(0, 255, 0) || rgba(0, 255, 0, 1)
+haxcode :- #0000FF <-- blue || rgb(0, 0, 255) || rgba(0, 0, 255, 0)
+color :- rgb()
+obacity :- range[0,1]
+
+
+-------------------
+
+Background properties - CSS
+1. background-color
+2. background-image : url()
+3. background-repeat :- no-repeat or something else
+4. background-position 
+5. background-size
+6. background-attachment
+
+--------------
+
+units in css 
+absolute lenths:- pexels(px), inches(in), points(pt)
+relative lengths:- em, Root em(rem), percentage(%)
+
+----------
+
+font properties - css
+
+1. font family
+2. font size
+3. font weight
+4. font Style
+5. font Variant
+
+-------
+
+Text properties - css
+
+1. Text Alignment
+2. Text Decoraction
+3. Text Transform
+4. Text Spacing
+5. Text Shadow
+
+----------------
+
+Gradient - CSS
+
+#linear
+color direction of color will be top to bottom
+background-image: linear-gradient(color-1, color-2);
+background-image: linear-gradient(red, yellow); 
+
+background-image: linear-gradient(to right, red, yellow); <-- left will be yellow and right will be red
+background-image: linear-gradient(to let, red, yellow);
+background-image: linear-gradient(to top, red, yellow);
+background-image: linear-gradient(to botom, red, yellow);
+for diglonal effect
+background-image: linear-gradient(to botom right, red, yellow); <-- bottom right color will be yellow and top left color will be red
+
+
+background-image: linear-gradient(90deg, red, yellow);
+background-image: linear-gradient(180deg, red, yellow); <-- top to bottom
+background-image: linear-gradient(270deg, red, yellow);
+
+
+for multiple color
+background-image: linear-gradient(to botom left, red, yellow, grey, orage, white, black);
+ 
+for repeating linear gradient
+background-image: repeating-linear-gradient(45deg, red, white, 50px)
+
+#radial
+background-image: radial-gradient(circle, red, yellow);
+background-image: radial-gradient(eclipse, red 30%, yellow 60%);
+background-image: repeating-radial-gradient(45deg, red, white, 50px)
+
+
+---------------
+box-Shadow - css
+box-Shadow: Offset-Y Offset-X Blur-radius Density/Spread Color;
+box-Shadow: -2px 1px 2px 4px #61677a;
+
+why we need drop-Shadow :- it is for giving effect on image layout.
+drop-Shadow - css
+drop-Shadow: Offset-Y Offset-X Blur-radius Density/Spread Color;
+drop-Shadow: -2px 1px 2px 4px #61677a;
+
+drop-Shadow:- it is used for transparent images like svg.
+
+
+--------------------
+
+filters - css
+1. grayscale()
+2. opacity()
+3. blur()
+4. contrast()
+5. brightness()
+6. invert()
+
+-webkit-filter: blur(5px)
+-webkit-filter: brightness(5%)
+-webkit-filter: grayscale()
+-webkit-filter: invert()
+
+
+------------------
+
+List properties - css
+
+1. List-style-type
+2. List-style-image
+3. List-style-position
+4. List-style-property
+
+
+-------------
+
+flexbox in css
