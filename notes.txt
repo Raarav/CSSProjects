@@ -129,3 +129,17 @@ flexbox in css
 --------------
 
 Transform in css
+
+
+----------------
+
+positions - css
+
+these 4 properties unlock the top, left, botom, right properties
+positions : relative - it relative to the parent div
+positions : absolute :- it is according to the its parent div will be relative and 
+positions : fixed :- it is use for fixed the div element on the viewport/screen
+positions : sticky :- it is for fixing the viewport/screen but untill its parent div will on the viewport/screen
+
+But, it is not unlock 4 properties.
+static:- By default div will be static
