@@ -13,14 +13,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    height: auto;
+    /* width: 60%; */
+    /* height: auto; */
     background-image: linear-gradient(to right top, rgb(0, 174, 255), rgb(115, 128, 0), rgb(187, 255, 0));
-    margin: auto;
+    /* margin: auto; */
     gap: 10px;
     flex-wrap: wrap;
     align-content: center;
     padding: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .item-1, .item-2, .item-3, .item-4{
